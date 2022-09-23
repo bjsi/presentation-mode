@@ -23,5 +23,5 @@
     - Note: only supports portals containing a single Rem.
 - Focus the parent and run the "Start Presentation" command.
 - Use the "Next/Previous Slide" commands to move forward and backward through the slides.
-  - You can create a shortcut for these in the RemNote keyboard shortcut settings.
+  - Or use the shortcuts - `cmd/ctrl+shift+>` to go forward and `cmd/ctrl+shift+<` to go backward.
 - Run the "Stop Presentation" command to end the presentation and reset the CSS.
