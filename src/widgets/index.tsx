@@ -73,9 +73,12 @@ async function onActivate(plugin: ReactRNPlugin) {
     id: "next-slide",
     name: "Next Slide",
     description: "Load the next slide",
-    keyboardShortcut: "opt+l",
+    keyboardShortcut: "mod+shift+.",
     action: async () => {
-      loadSlide(1)
+      const isPresenting = presentationRem != null;
+      if (isPresenting) {
+        loadSlide(1)
+      }
     }
   })
 
@@ -83,9 +86,12 @@ async function onActivate(plugin: ReactRNPlugin) {
     id: "prev-slide",
     name: "Previous Slide",
     description: "Load the previous slide",
-    keyboardShortcut: "opt+h",
+    keyboardShortcut: "mod+shift+,",
     action: async () => {
-      loadSlide(-1)
+      const isPresenting = presentationRem != null;
+      if (isPresenting) {
+        loadSlide(-1)
+      }
     }
   })
 
