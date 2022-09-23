@@ -1,15 +1,16 @@
 {
   "manifestVersion": 1,
-  "id": "plugin_template",
-  "name": "Plugin Template",
+  "id": "presentation_mode",
+  "name": "Presentation Mode",
   "author": "remnote",
-  "repoUrl": "",
+  "repoUrl": "https://github.com/bjsi/presentation-mode",
+  "enableOnMobile": false,
   "version": {
     "major": 0,
     "minor": 0,
     "patch": 1
   },
-  "description": "",
+  "description": "Give presentations directly from your notes in RemNote",
   "requestNative": false,
   "requiredScopes": [
     {
