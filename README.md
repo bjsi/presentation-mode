@@ -5,6 +5,10 @@
 
 ### Examples
 
+- Video of a presentation I made using the plugin:
+
+[![Example Presentation Video](http://img.youtube.com/vi/9Uc2Rvhn1wc/0.jpg)](http://www.youtube.com/watch?v=9Uc2Rvhn1wc "Why Greatness Cannot Be Planned: A Summary")
+
 - List of presentation slides using portals:
 
 ![](https://raw.githubusercontent.com/bjsi/presentation-mode/main/images/slides.png)
