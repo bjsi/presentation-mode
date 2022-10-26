@@ -17,6 +17,16 @@ async function onActivate(plugin: ReactRNPlugin) {
     }
   );
 
+  await plugin.app.registerCommand({
+    id: "presentation",
+    name: "Presentation",
+    description: "Use this command to tag the focused Rem as a presentation.",
+    action: async () => {
+      const rem = await plugin.focus.getFocusedRem();
+      await rem?.addPowerup(presentationCode);
+    }
+  })
+
   const getVisibleChildren = async (rem: Rem, portalId: string) => {
     const fstChild = await plugin.rem.findOne(rem?.children[0])
     const visibleChildren = await fstChild?.visibleSiblingRem(portalId);
