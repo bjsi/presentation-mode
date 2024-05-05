@@ -7,6 +7,10 @@ export const presentationCSS = `
    --line-height: 36px
  }
 
+ .EditorContainer{
+   line-height: normal !important;
+ }
+
  .rem {
    margin: 25px 0px 25px 0px;
  }
@@ -17,14 +21,14 @@ export const presentationCSS = `
 
  .perfect-circle {
     --target-width: 20px;
-    margin: 0px 10px 0 0px;
+		margin-top: 20px;
  }
 
  .rn-doc-title {
    font-size: 50px;
    margin: 0 0 100px 0
  }
- 
+
  ::-webkit-scrollbar-thumb {
    background: none;
  }
@@ -43,7 +47,7 @@ export const presentationCSS = `
 
 .rn-help-button {
   display: none;
-} 
+}
 
 .six-dot {
   display: none;
@@ -88,4 +92,4 @@ export const presentationCSS = `
  .rn-editor__rem__hidden-children {
    display: none;
  }
-`
+`;
